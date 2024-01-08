@@ -255,15 +255,13 @@ font-weight: 900;
     position: absolute;
     right: 23%;}
 
-/* offer-start */
+/* offer-end */
 
 /* discount-start */
-
-.discount_section_main{
+.discount{
+    margin: 120px auto;
     text-align: center;
-    margin-top:120px ;
 }
-
 .discount_title{
     color: #070211;
     font-family: 'Inter', sans-serif;
@@ -273,7 +271,7 @@ font-weight: 900;
     line-height: normal;
 }
 
-.parcent_off{
+.heading .forwording{
     color: #F00;
     text-align: center;
     font-family: Merriweather;
@@ -283,17 +281,7 @@ font-weight: 900;
     line-height: normal;
 }
 
-.discount_heading span{
-    color: #F00;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-}
-
-.discount_heading{
+.heading{
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -302,7 +290,7 @@ font-weight: 900;
     line-height: normal;
 }
 
-.discount_discription{
+.discount_description{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -311,28 +299,37 @@ font-weight: 900;
     font-weight: 500;
     line-height: 32px;
 }
-
-.discount_section{
+.image_section{
     width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
     margin: 120px auto;
-    background-image: url(../resources/Rectangle\ 2.png);
-    background-repeat: no-repeat;
 }
 
 .discount_image{
-    width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    height: 600px;
 }
-
 .discount_image1{
-po
+    position: absolute; 
+    top: 2%;
+    left: -10%;
 }
-.discount_image01{
-    text-align: center;
-    margin: 0 auto;
+.discount_image2{
+    position: absolute; 
+    top: 10%;
+    left: 59%;
+    z-index: 99;
+}
+.discount_image3{
+    position: absolute; 
+    top: -10%;
+    left: 66.3%;
 }
 /* discount-end */
 
@@ -518,3 +515,5 @@ position: relative;
     font-weight: 500;
     line-height: normal;
 }
+
+/* footer-end */
