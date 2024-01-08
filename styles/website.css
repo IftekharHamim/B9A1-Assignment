@@ -70,54 +70,60 @@ font-weight: 900;
 /* new_year_end */
 
 /* party-start */
-
+ 
 .party{
+    width: 75%;
+    display: flex;
     margin: 120px auto;
-    text-align: center;
-}
-
-.party_img{
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     position: relative;
+
 }
 
-.party_details{
+.party_heading_site{
     position: absolute;
-    left: 20%;
     top: 20%;
-    text-align: left;
+    left: 5%;
 }
-.party_details .party_heading{
+
+.party_heading{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
+    font-style: normal;
     font-weight: 900;
     line-height: 88px;
+    letter-spacing: 7.04px;
 }
 
-.party_details .party_description{
+.party_description{
     color: rgba(255, 255, 255, 0.80);
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
-
+    line-height: 30px;
 }
 
 .party_btn{
-    border: none;
-    background: rgba(0,0,0,0.3);
-    padding: 10px 10px;
-    border-radius: 8px;
-    color: #fff;
+    color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s ease;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
 }
 
-.party_btn:hover{
-    background: #F00;
+.img_2024{
+    position: absolute;
+    right:15%;
 }
+
 /* party-end */
 
 /* event-time-start */
@@ -247,5 +253,61 @@ font-weight: 900;
 }
 .offer_year .offer_logo{
     position: absolute;
-    right: 23%;
+    right: 23%;}
+
+/* offer-start */
+
+/* discount-start */
+
+.discount_section_main{
+    text-align: center;
+    margin-top:120px ;
+}
+
+.discount_title{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.parcent_off{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.discount_heading span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.discount_heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.discount_discription{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
 }
