@@ -486,9 +486,35 @@ position: relative;
 
 .footer_logo{
     text-align: center;
+    padding: 20px;
+    cursor: pointer;
 }
 
 .line2{
     border: 1px solid #ddd;
-    margin-top: 20px;
+}
+
+.reserved{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.reserved_by{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.unsubscribe{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
